@@ -20,8 +20,8 @@ public:
         
         sort (nums.begin(), nums.end());
         set<vector<int>> result;
-        //int nums_length = nums.size();
-        //int result_length=0;
+        //vector<vector<int>> result;
+
         for(int a=0;a<nums_length;a++){
             for(int b=a+1;b<nums_length;b++){
                 for(int c=b+1;c<nums_length;c++){
@@ -33,8 +33,9 @@ public:
                             temp.push_back(nums[b]);
                             temp.push_back(nums[c]);
                             temp.push_back(nums[d]);
+                            //result.push_back(temp);
                             result.insert(temp);
-                            //result_length++;
+
                             
                         }
                     }
@@ -50,12 +51,7 @@ public:
         
         vector<vector<int>> result_print;
         copy(result.begin(), result.end(), std::back_inserter(result_print));
-//         for(int i=0;i<result_length;i++){
-//             for(int j=0;j<4;j++){
-//                 cout<<result[i][j]<<',';
-//             }
-//             cout<<endl;
-//         }
+
         
         
         
