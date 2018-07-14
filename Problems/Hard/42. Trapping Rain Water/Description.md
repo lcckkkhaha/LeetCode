@@ -1,5 +1,6 @@
 Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
 
+![Aaron Swartz]http://www.leetcode.com/static/images/problemset/rainwatertrap.png)
 ![alt text](http://www.leetcode.com/static/images/problemset/rainwatertrap.png)
 ![Cat](http://www.leetcode.com/static/images/problemset/rainwatertrap.png)
 
