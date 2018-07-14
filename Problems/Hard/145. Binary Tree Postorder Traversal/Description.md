@@ -10,3 +10,6 @@ Input: [1,null,2,3]
    3
 
 Output: [3,2,1]
+
+
+Link: https://leetcode.com/problems/binary-tree-postorder-traversal/description/
